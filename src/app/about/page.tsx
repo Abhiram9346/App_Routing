@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "About Codevolution",
+    title: "Abhi Technology",
   };
   
   export default function About() {

@@ -17,7 +17,6 @@ export default function NewsArticle({
       <h1>News Article #{articleId}</h1>
       <p>Reading in: {lang.toUpperCase()}</p>
 
-      {/* Language switcher */}
       <div className="language-options">
         <Link href={`/articles/${articleId}?lang=en`}>English</Link> |
         <Link href={`/articles/${articleId}?lang=es`}>Español</Link> |
